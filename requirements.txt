@@ -2,6 +2,6 @@ opencv-python-headless==4.5.5.64
 tensorflow==2.17.0
 keras>=3.2.0
 mtcnn==0.1.0
-numpy==1.22.4
+numpy>=1.23.5,<2.0.0
 pillow==9.2.0
 streamlit==1.41.1
