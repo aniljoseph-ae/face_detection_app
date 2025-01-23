@@ -1,3 +1,7 @@
+import os
+os.environ['OPENCV_IO_ENABLE_OPENCL'] = '0'
+os.environ['OPENCV_IO_ENABLE_OPENGL'] = '0'
+
 import cv2
 import numpy as np
 from mtcnn.mtcnn import MTCNN
